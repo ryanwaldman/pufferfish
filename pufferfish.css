@@ -1,0 +1,33 @@
+.canvasBorder{
+	border:30px groove;
+	display:inline-block;
+}
+h1{
+	text-align:center;
+}
+input[type="number"] {
+   width:5em;
+}
+table{
+	border:thick solid black;
+	border-collapse: collapse;
+}
+td{
+	border:none;
+	width:2em;
+	height:2em;
+	text-align:center;
+	vertical-align:middle;
+}
+td.snake{
+	color:green;
+	background-color:white;
+}
+td.wall{
+	color:DarkGray;
+	background-color:white;
+}
+td.apple{
+	color:red;
+	background-color:white;
+}
